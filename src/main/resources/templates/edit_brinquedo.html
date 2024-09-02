@@ -19,7 +19,7 @@
         <input type="text" id="tamanho_brinquedo" th:field="*{tamanho_brinquedo}"/><br/>
 
         <label for="preco_brinquedo">Preço:</label>
-        <input type="text" id="preco_brinquedo" th:field="*{preco_brinquedo}"/><br/>
+        <input type="number" id="preco_brinquedo" th:field="*{preco_brinquedo}" step="0.01" min="0"/><br/>
 
         <button type="submit">Atualizar</button>
     </form>
